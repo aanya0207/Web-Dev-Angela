@@ -1,0 +1,75 @@
+ Notes on HTML Attributes and Anchor Element
+
+ Overview of Attributes
+- Attributes provide additional information about an HTML element.
+- Attributes are placed in the opening tag of an element, after the element name and before the closing angle bracket.
+- The structure of an attribute:
+  - `attribute_name="attribute_value"`
+  - Multiple attributes are separated by spaces.
+
+ Anchor Element (`<a>`)
+- The anchor element is used to create hyperlinks.
+- Basic structure:
+ html
+  <a>Link Text</a>
+ 
+- By default, without attributes, the anchor element does not behave as a hyperlink.
+
+`href` Attribute
+- The `href` attribute specifies the URL the hyperlink points to.
+- Example:
+ html
+  <a href="https://example.com">Visit Example</a>
+ 
+- When `href` is added, the link becomes active, styled in blue and underlined by default.
+- Clicking the link navigates to the specified URL.
+
+ Global Attributes
+- Global attributes can be applied to any HTML element.
+- Example: `draggable` attribute
+  - Allows elements to be dragged.
+  - Syntax: `draggable="true"` or `draggable="false"`
+  - Example:
+   html
+    <a href="https://example.com" draggable="true">Drag Me</a>
+   
+
+ Specific vs Global Attributes
+- Specific attributes are unique to certain elements (e.g., `href` for `<a>`).
+- Global attributes apply to all HTML elements (e.g., `draggable`).
+
+ Exercise: Creating a Website with Anchor Elements
+1. Create an ordered list (`<ol>`):
+  html
+   <ol>
+     <li><a href="https://site1.com">Site 1</a></li>
+     <li><a href="https://site2.com">Site 2</a></li>
+     <li><a href="https://site3.com">Site 3</a></li>
+     <li><a href="https://site4.com">Site 4</a></li>
+     <li><a href="https://site5.com">Site 5</a></li>
+   </ol>
+  
+2. Nest `<a>` tags within `<li>` tags to create hyperlinks for each list item.
+3. Use the `href` attribute to link to favorite websites.
+
+ Extra Challenge: `start` Attribute in `<ol>`
+- The `start` attribute specifies the starting number of an ordered list.
+- Example:
+ html
+  <ol start="5">
+    <li><a href="https://site1.com">Site 1</a></li>
+    <li><a href="https://site2.com">Site 2</a></li>
+    <li><a href="https://site3.com">Site 3</a></li>
+    <li><a href="https://site4.com">Site 4</a></li>
+    <li><a href="https://site5.com">Site 5</a></li>
+  </ol>
+ 
+- Output: The list numbers start at 5 and end at 9.
+
+Key Takeaways
+- Attributes enhance elements by adding metadata or functionality.
+- Anchor elements (`<a>`) become active hyperlinks with the `href` attribute.
+- Global attributes (e.g., `draggable`) apply universally to all elements.
+- Always enclose attribute values in double quotes for clarity and compatibility.
+
+ 

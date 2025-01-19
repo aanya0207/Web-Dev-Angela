@@ -1,0 +1,39 @@
+What is HTML ?
+---------------
+-> HTML is the foundation of web development.
+-> Browsers like Chrome,Safari and Brave render HTML,CSS or JavaScripts files into websites.
+-> Early websites are built entirely with HTML.
+-> Defines the content & structure of a website.
+-> Full form of HTML : Hyper Text Markup Language 
+-> HyperText : connects different web page
+-> Markup Lang : tags & annotations in the document that define structure & formatting.
+
+The Heading Element
+--------------------
+<h1> -> opening tags
+</h1> -> closing tags
+
+<h1>Heading 1</h1> 
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 1</h6>
+
+Rules: 1. One `<h1>` Rule:
+   - A webpage should have only one `<h1>`.
+   - Think of `<h1>` as the book title, representing the main topic of the page.
+
+2. Hierarchy:
+   - Use headings in order: `<h1>` → `<h2>` → `<h3>` → ... → `<h6>`.
+   - Avoid skipping levels (e.g., don’t jump from `<h1>` to `<h3>` without an `<h2>` in between).
+
+3. Semantics and Accessibility:
+   - Proper use of headings improves the structure and accessibility of your webpage.
+
+4. Rules Are Not Mandatory:
+   - Breaking these rules won’t break your code, but adhering to them is best practice.
+
+5. Professional Reference:
+   - Use Mozilla Developer Network (MDN) for detailed information on HTML elements.
+

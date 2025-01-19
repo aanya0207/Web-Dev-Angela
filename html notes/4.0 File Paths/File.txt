@@ -1,0 +1,17 @@
+File Paths 
+-------------
+
+Projects folder -> img folder -> cat.png
+
+Absolute File Paths
+--------------------
+simple path to the destination
+C:/Project/Image/cat.png
+
+Relative File Paths
+---------------------
+->shorter 
+->more folders around
+-> Images/cat.png
+->Up level     ../essay.dox
+->Current directory ./dog.png

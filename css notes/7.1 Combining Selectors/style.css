@@ -1,0 +1,49 @@
+/* Write your code here: */
+
+/* Group Selector 
+   selector , selector {
+   color : 
+}
+*/
+
+h1,h2{
+    color: purple;
+}
+
+/* Child = Apply  to direct child of left side
+   selector > selector {
+   color: }
+*/
+.box > p{
+    color:firebrick;
+}
+/* Descendant = apply to descent of left side
+selector selector{
+color: 
+}
+*/
+.box .list{
+    color:blue;
+}
+
+/* Chaining = apply where all selectors are true
+<h1 id="title" class="bigheading"> Hello World</h1>
+
+h1#title.bigheading{
+                    color: blue;
+}
+
+*/
+li.done{
+    color:seagreen;
+}
+
+
+ul > p.done{
+    color:orangered;
+    font-size: 0.5rem;
+}
+
+p{
+    color: rgb(42, 147, 165);
+}

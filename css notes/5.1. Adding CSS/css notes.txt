@@ -1,0 +1,121 @@
+
+ Inline CSS
+Definition: Inline CSS styles are applied directly within an HTML tag using the `style` attribute.
+Use Case: Useful for applying a unique style to a single element. Not recommended for large projects due to lack of reusability and maintenance challenges.
+
+Example:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inline CSS Example</title>
+</head>
+<body>
+    <h1 style="color: blue; text-align: center;">Hello, World!</h1>
+</body>
+</html>
+```
+
+ Internal CSS
+Definition: Internal CSS styles are defined within the `<style>` tag inside the `<head>` section of an HTML document.
+Use Case: Ideal for applying styles to a single HTML document. Useful for small projects or when styles need to be specific to a single page.
+
+Example:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal CSS Example</title>
+    <style>
+        h1 {
+            color: green;
+            text-align: center;
+        }
+        p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a paragraph styled with internal CSS.</p>
+</body>
+</html>
+```
+
+ External CSS
+Definition: External CSS styles are defined in a separate CSS file, which is linked to the HTML document using the `<link>` tag.
+Use Case: Ideal for larger projects and multiple web pages. It promotes reusability, maintainability, and separation of concerns.
+
+Example:
+1. HTML File:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>External CSS Example</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a paragraph styled with external CSS.</p>
+</body>
+</html>
+```
+
+2. CSS File (styles.css):
+```css
+h1 {
+    color: red;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+```
+
+Summary:
+- Inline CSS: Quick and specific but not scalable.
+- Internal CSS: Convenient for single-page styles.
+- External CSS: Best for large projects and multiple pages
+
+CSS Selectors
+--------------
+
+/* Element Selector */
+h1{
+    color: green;
+}
+/* Class Selector 
+1) Can be applied to many elements
+2) <h2 class="green-text"> hello world </h2>
+*/
+.green-text{
+    color: lightseagreen;
+}
+
+/* Id Selector
+->only one element
+->unique element
+*/ 
+#main{
+    color:red;
+}
+
+/* Attribute Selector 
+-> when draggable is true then you can drag the text
+*/
+h1[draggable]{
+    color:blueviolet;
+}
+
+/*Universal Selector
+-> Applied to all the things
+*/
+*{
+    color:bisque;
+}

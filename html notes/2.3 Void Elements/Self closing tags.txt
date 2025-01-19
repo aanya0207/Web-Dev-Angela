@@ -1,0 +1,33 @@
+What are Void Elements?
+------------------------
+
+Definition: HTML elements that do not have closing tags and cannot contain any content.
+Structure: They are self-closing. Example:
+html
+<hr />
+Starts and ends with angle brackets (< >).
+Includes a forward slash (/) just before the closing angle bracket.
+
+Horizontal Line (<hr />)
+------------------------
+Creates a horizontal line separating sections of content.
+
+
+
+Break (<br />):
+-----------------
+Inserts a line break within a paragraph.
+
+
+Do's and Don'ts with Void Elements
+-------------------------------------
+DO:
+Use <br /> for content requiring line breaks within the same paragraph (e.g., poems, addresses).
+Use <hr /> for visual separation of content.
+
+DON'T:
+Use <br /> to create a new paragraph. Instead, use <p> for separate paragraphs for better accessibility.
+
+HTML5 Considerations
+----------------------
+Void elements like <br> and <hr> can be written without the forward slash (/):

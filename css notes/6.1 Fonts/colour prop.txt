@@ -1,0 +1,21 @@
+background-color: name of colour
+color: "name" or "hexadecimal"
+
+Websites
+colour hunt
+
+Fonts
+-------
+Font Size Units: Understand the difference between px, pt, em, and rem.
+
+px and pt are absolute units, while em and rem are relative.
+em depends on the parent element's font size.
+rem is relative to the root font size, making it more predictable.
+Font Weights: Can range from 100 to 900, with 400 being normal and 700 being bold.
+
+Font Family: Always include a fallback generic font type (e.g., serif, sans-serif).
+
+Custom Fonts: Use resources like Google Fonts to include unique fonts. Add the <link> tag in your HTML and reference the font in your CSS.
+
+Quotation Marks: Use quotation marks around font names containing spaces (e.g., "Times New Roman").
+

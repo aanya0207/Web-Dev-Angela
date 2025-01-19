@@ -1,0 +1,38 @@
+/* Heirarchy of CSS code  (lowest to highest) */
+
+/* Position Selector*/
+li{
+    color:red;
+    color: blue; /* bottom will replace the top */
+}
+/* Specificity 
+order (highest to lowest)
+1) id
+2) attribute selector
+3) class
+4) element
+*/
+#first-id {color: orange;}
+li[draggable]{color:purple;}
+.first-class{color:red;}
+li{color:blue;}
+
+/* Type
+<link ref = " " href = link>
+<style>
+</style>
+<li style = " yellow ">
+*/
+
+/* Importance
+color: red
+colour: blue */
+
+li{
+    color: blueviolet !important;
+}
+    
+
+
+
+

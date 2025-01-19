@@ -1,0 +1,33 @@
+/* Element Selector */
+h1{
+    color: green;
+}
+/* Class Selector 
+1) Can be applied to many elements
+2) <h2 class="green-text"> hello world </h2>
+*/
+.green-text{
+    color: lightseagreen;
+}
+
+/* Id Selector
+->only one element
+->unique element
+*/ 
+#main{
+    color:red;
+}
+
+/* Attribute Selector 
+-> when draggable is true then you can drag the text
+*/
+h1[draggable]{
+    color:blueviolet;
+}
+
+/*Universal Selector
+-> Applied to all the things
+*/
+*{
+    color:bisque;
+}
